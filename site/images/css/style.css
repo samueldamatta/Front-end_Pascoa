@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{ 
+	font-family: arial, sans-serif;
+	font-size: 10px;
+}
+
+ul#menu{
+	background-color: #AED8F2;
+	line-height: 60px;
+	width: 100%;
+	position: fixed;
+	text-align: center;
+}
+
+#menu li{
+	display: inline;
+}
+
+#menu a:link, a:active{
+	font-size: 1.5rem;
+	padding: 22px;
+	text-decoration: none;
+	color: #262106;
+	text-transform: uppercase;
+
+}
+
+#menu a:hover, a:visited{
+	background-color: #FFF;
+}
+#home{
+	background-image: url(../images/pascoa2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	background-position: center center;
+}
+h1{
+	margin-top: 80px;
+	margin-bottom: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#about{
+	background-color: #0E1F26;
+	height: 100vh;
+	padding: 30px;
+	font-size: 1.2rem;
+	color: #FFF;
+	text-align: justify;
+}
+#gallery{
+	background-color: #397362;
+	height: 100vh;
+	font-size: 1.5rem;
+	padding: 80px;
+	text-align: center;
+	color: #FFF;
+}
+
+#gallery img{
+	width: 300px;
+	height: 180px;
+	border: 1px #FFF solid;
+	margin: 30px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 30px #000;
+}
+
+#contacts{
+	background-color: #734F2F;
+	color: #FFF;
+	padding: 50px;
+	font-size: 1.5rem;
+	text-align: center;
+	height: 100vh;
+}
+
+#contacts label, button{
+	display: block;
+	margin-top: 20px;
+}
+
+#contacts input, textarea{
+	width: 400px;
+	padding: 15px;
+	font-size: 1.2rem;
+	border-radius: 10px;
+	border: none;
+}
+
+#contacts button{
+	background-color: #BBBF4B;
+	padding: 15px;
+	border-radius: 10px;
+	border: none;
+}
+
+#contacts button:hover{
+	background-color: #D2D904;
+}
+#video{
+	background-color: #262106;
+	box-shadow: 10px 10px 10px #000;
+	text-align: center;
+	padding: 22px;
+}
+footer{
+	background-color: #AED8F2;
+	color: #FFF;
+	font-size: 1.1rem;
+	text-align: center;
+	padding: 10px;
+}
